@@ -13,13 +13,13 @@ def main():
             print(f"Your BMI is: {bmi:.2f}")
 
         if bmi < 18.5:
-        print("Category:Under weight")
+            print("Category:Under weight")
         elif bmi < 24.9:
-        print("Category:Normal weight")
+            print("Category:Normal weight")
         elif bmi < 29.9:
-        print("Category:Over weight")
+            print("Category:Over weight")
         else:
-        print("Category:obese")
+            print("Category:obese")
 
     except ValueError:
         print("Invalid input! Weight and height must be numeric values.")
