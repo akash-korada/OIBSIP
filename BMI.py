@@ -9,7 +9,7 @@ def main():
         if weight <= 0 or height <= 0:
             print("Invalid input! Weight and height must be greater than zero.")
         else:
-            bmi = bmi_calculator(weight, height)
+            bmi = bmi_calculator( height,weight)
             print(f"Your BMI is: {bmi:.2f}")
 
         if bmi < 18.5:
