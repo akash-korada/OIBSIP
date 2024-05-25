@@ -23,9 +23,9 @@ def main():
     print("Welcome to the Password Generator!")
 
     length = int(input("Enter the desired length of the password: "))
-    use_letters = input("Include letters (y/n)? ").lower() == 'y'
-    use_numbers = input("Include numbers (y/n)? ").lower() == 'y'
-    use_symbols = input("Include symbols (y/n)? ").lower() == 'y'
+    use_letters = input("Include letters (enter y for yes/n for no)? ").lower() == 'y'
+    use_numbers = input("Include numbers (enter y for yes/n for no)? ").lower() == 'y'
+    use_symbols = input("Include symbols(enter y for yes/n for no)? ").lower() == 'y'
 
     password = generate_password(length, use_letters, use_numbers, use_symbols)
 
