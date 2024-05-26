@@ -1,5 +1,5 @@
 def bmi_calculator(height,weight):
-    bmi=(weight/height*height)
+    bmi=weight/(height*height)
     return bmi
 def main():
     try:
